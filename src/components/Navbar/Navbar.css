@@ -1,0 +1,24 @@
+.navbar{
+  background: #200034;
+  color:#c8c0b0 ;
+}
+.navbar .nav-right{
+    position: relative;
+}
+.navbar .nav-right .count{
+    position: absolute;
+    bottom: 15px;
+    left: 12px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: red;
+    padding: 1px;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.navbar .nav-link{
+  text-decoration: none;
+}

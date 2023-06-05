@@ -1,0 +1,31 @@
+.my-cart .card {
+  border: none;
+  border-radius: 1rem;
+}
+.my-cart .card .card-title {
+  overflow: visible;
+  display: block;
+}
+.my-cart .card {
+    width: 100%;
+    margin-left: -15px;
+  }
+
+@media screen and (min-width: 768px) {
+  .my-cart .card {
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  .my-cart hr {
+    width: 70%;
+    margin: 30px auto;
+  }
+
+  .my-cart img {
+    height: 220px;
+  }
+}
+.my-cart .btn:hover {
+  color: #fff;
+}
