@@ -16,7 +16,7 @@ const CartList = ({item}) => {
         <div className="card mb-3">
           <div className="row g-0">
             <div className="col-md-5 text-center">
-              <img src={item.image} className="img-fluid rounded-start" alt="" />
+              <img src={item.image} className="rounded" alt="" />
             </div>
             <div className="col-md-7">
               <div className="card-body pt-5">
